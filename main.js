@@ -1,6 +1,6 @@
 const kakaoKey = import.meta.env.VITE_KAKAO_API_KEY;
 
-const script = document.createElement('script');
+const script = document.createElement("script");
 script.src = `https://dapi.kakao.com/v2/maps/sdk.js?appkey=${kakaoKey}&autoload=false`;
 document.head.appendChild(script);
 

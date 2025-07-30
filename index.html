@@ -9,10 +9,21 @@
         height: 400px;
       }
     </style>
+
+    <!-- ✅ 여기 추가! Kakao SDK (integrity 포함) -->
+    <script
+      src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.5/kakao.min.js"
+      integrity="sha384-dok87au0gKqJdxs7msEdBPNnKSRT+/mhTVzq+qOhcL464zXwvcrpjeWvyj1kCdq6"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <h1>대장님의 현재 위치 📍</h1>
     <div id="map"></div>
+
+    <!-- ✅ 이건 유지 (SDK 아래에 위치해야 함) -->
     <script type="module" src="/main.js"></script>
+
+    <p>테스트</p>
   </body>
 </html>
