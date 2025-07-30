@@ -21,6 +21,7 @@ script.onload = () => {
         position: new kakao.maps.LatLng(lat, lon),
       });
       marker.setMap(map);
+      console.log("KaKaoKey:", import.meta.env.VITE_KAKAO_API_KEY);
     });
   });
 };
